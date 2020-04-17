@@ -8,7 +8,7 @@
     box-sizing: inherit;
 }
 
-header {
+.color {
     background-color: #769381;
 }
 
@@ -73,4 +73,25 @@ header {
 .details-link {
     text-decoration: none;
     color: #FBFFFD;
+}
+
+.photos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: flex-start;
+    
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 4%;
+}
+
+.photos img {
+    margin-top: 4%;
+    height: 100%;
+    max-width: 100%;
+}
+
+.photos img + img {
+    margin-left: 4%;
 }
